@@ -1,0 +1,13 @@
+@import "../variables/variables";
+
+nav{
+    background-image: linear-gradient(to left, #7052ff, #d06aff, #ff81ff);
+}
+
+
+footer{
+    display: flex;
+    text-align: $alinear-al-centro;
+    justify-content: space-between;
+    color: $color;
+}

@@ -1,0 +1,24 @@
+@import "../variables/variables";
+
+body{
+    background-color: black;
+}
+
+.videos{
+    display: flex;
+}
+
+h1{
+    font-size: $size;
+    font-family: $font-family;
+    text-align: center;
+    color: white;
+}
+
+.segundo-encabezado{
+    text-align: center;
+    font-size: large;
+    color: $color;
+}
+
+

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+nav {
+  background-image: linear-gradient(to left, #7052ff, #d06aff, #ff81ff); }
+
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  color: #d06aff; }
+
+.formulario {
+  color: #d06aff; }
+
+.contenedor {
+  width: 50%;
+  height: 50%;
+  padding: 5%; }
+
+h3 {
+  color: #d06aff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  margin: 5%; }
+
+.foto-nosotros {
+  max-width: 50%; }
+
+.card {
+  color: #d06aff; }
+
+body {
+  background-color: black; }
+
+.videos {
+  display: flex; }
+
+h1 {
+  font-size: 80px;
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  color: white; }
+
+.segundo-encabezado {
+  text-align: center;
+  font-size: large;
+  color: #d06aff; }
+
+* {
+  margin: 0;
+  padding: 0; }
