@@ -1,13 +1,85 @@
 @import "../variables/variables";
 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&family=Macondo&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 nav{
     background-image: linear-gradient(to left, #7052ff, #d06aff, #ff81ff);
 }
 
+section{
+    height: 150px;
+}
 
 footer{
-    display: flex;
-    text-align: $alinear-al-centro;
-    justify-content: space-between;
-    color: $color;
+    background-image: linear-gradient(to left, #7052ff, #d06aff, #ff81ff);
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    color: #fff;
 }
+
+.pie-pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pie-pagina h4{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 24px;
+    font-family:'Comfortaa', cursive;
+}
+
+.pie-pagina p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.redes{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes li{
+    margin: 0 10px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes a i{
+    font-size: 30px;
+}
+
+.pie-final{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.pie-final p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.pie-final span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+

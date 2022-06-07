@@ -1,6 +1,8 @@
 @import "../variables/variables";
 
-
+body{
+    background: linear-gradient(to left, #b41ac2, #1f1319, #9812b3);
+}
 
 h3 {
     color: $color;

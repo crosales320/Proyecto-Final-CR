@@ -1,12 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&family=Macondo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&family=Macondo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+.redes a i {
+  transition: color .4s ease; }
+
+.redes a:hover i {
+  color: aqua; }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
 nav {
   background-image: linear-gradient(to left, #7052ff, #d06aff, #ff81ff); }
 
+section {
+  height: 150px; }
+
 footer {
+  background-image: linear-gradient(to left, #7052ff, #d06aff, #ff81ff);
+  height: auto;
+  width: 100%;
+  padding-top: 20px;
+  color: #fff; }
+
+.pie-pagina {
   display: flex;
-  text-align: center;
-  justify-content: space-between;
-  color: #d06aff; }
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+
+.pie-pagina h4 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 24px;
+  font-family: 'Comfortaa', cursive; }
+
+.pie-pagina p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px; }
+
+.redes {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.redes li {
+  margin: 0 10px; }
+
+.redes a {
+  text-decoration: none;
+  color: #fff; }
+
+.redes a i {
+  font-size: 30px; }
+
+.pie-final {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center; }
+
+.pie-final p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize; }
+
+.pie-final span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200; }
 
 .formulario {
   color: #d06aff; }
@@ -15,6 +83,15 @@ footer {
   width: 50%;
   height: 50%;
   padding: 5%; }
+
+.titulo-contacto {
+  padding: 50px, 100px, 100px, 50px; }
+
+img {
+  padding: 30px; }
+
+body {
+  background: linear-gradient(to left, #b41ac2, #1f1319, #9812b3); }
 
 h3 {
   color: #d06aff;
@@ -28,17 +105,24 @@ h3 {
 .card {
   color: #d06aff; }
 
-body {
-  background-color: black; }
+.col {
+  display: flex;
+  padding: 20px; }
 
-.videos {
-  display: flex; }
+main {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.5)), url(../img/instatprint-foto.jpg) no-repeat fixed;
+  min-height: 100vh; }
 
 h1 {
   font-size: 80px;
-  font-family: "Architects Daughter", cursive;
+  font-family: 'Comfortaa', cursive;
   text-align: center;
-  color: white; }
+  color: white;
+  padding: 5%;
+  min-width: min-content; }
+
+h2 {
+  padding: 50px 200px 50px 200px; }
 
 .segundo-encabezado {
   text-align: center;

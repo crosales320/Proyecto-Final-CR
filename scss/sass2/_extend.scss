@@ -1,2 +1,9 @@
 @import "../variables/variables";
 
+.redes a i{
+    transition: color .4s ease;
+}
+
+.redes a:hover i{
+    color: aqua;
+}
